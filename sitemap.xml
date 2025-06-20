@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://learn2trade.in/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn2trade.in/" />
+    <xhtml:link rel="alternate" hreflang="en-in" href="https://learn2trade.in/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn2trade.in/" />
+  </url>
+
+  <!-- Trading Questions Section -->
+  <url>
+    <loc>https://learn2trade.in/#questions</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Broker Comparison Section -->
+  <url>
+    <loc>https://learn2trade.in/#brokers</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Learning Guides Section -->
+  <url>
+    <loc>https://learn2trade.in/#guides</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Individual Article URLs (when you create separate pages) -->
+  
+  <!-- Trading Profitability -->
+  <url>
+    <loc>https://learn2trade.in/is-trading-profitable-india/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Why Traders Lose Money -->
+  <url>
+    <loc>https://learn2trade.in/why-traders-lose-money-india/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- F&O Trading Guide -->
+  <url>
+    <loc>https://learn2trade.in/fno-trading-risks-india/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Risk Management Guide -->
+  <url>
+    <loc>https://learn2trade.in/risk-management-trading/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Trading Psychology -->
+  <url>
+    <loc>https://learn2trade.in/trading-psychology-guide/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Beginner's Guide -->
+  <url>
+    <loc>https://learn2trade.in/complete-beginners-guide-trading-india/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Algo Trading Guide -->
+  <url>
+    <loc>https://learn2trade.in/algo-trading-india-guide/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Broker Reviews -->
+  <url>
+    <loc>https://learn2trade.in/best-brokers-india-comparison/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Free Learning Resources -->
+  <url>
+    <loc>https://learn2trade.in/free-trading-education/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Trading Strategies -->
+  <url>
+    <loc>https://learn2trade.in/trading-strategies-beginners/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Technical Analysis Guide -->
+  <url>
+    <loc>https://learn2trade.in/technical-analysis-indian-markets/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Practice Trading Guide -->
+  <url>
+    <loc>https://learn2trade.in/practice-trading-track-performance/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://learn2trade.in/privacy-policy/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://learn2trade.in/terms-of-service/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://learn2trade.in/contact/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://learn2trade.in/about/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
