@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Education India - Learn Trading the Right Way</title>
+    <meta name="description" content="Honest trading education for Indian beginners. Learn why 90% of traders lose money and how to trade successfully.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2563eb;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #2563eb;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #fff;
+            color: #667eea;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .section {
+            padding: 4rem 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+        }
+        
+        .questions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .question-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .question-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .question-card h3 {
+            color: #2563eb;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .question-card p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .question-card a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .brokers-section {
+            background: white;
+        }
+        
+        .broker-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        
+        .broker-info h4 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .broker-features {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .referral-btn {
+            background: #10b981;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        
+        .referral-btn:hover {
+            background: #059669;
+        }
+        
+        .warning-box {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .warning-box h4 {
+            color: #92400e;
+            margin-bottom: 0.5rem;
+        }
+        
+        .warning-box p {
+            color: #92400e;
+        }
+        
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .mobile-menu {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .questions-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .broker-card {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Trading Education India</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#questions">Popular Questions</a></li>
+                <li><a href="#brokers">Best Brokers</a></li>
+                <li><a href="#guides">Learning Guides</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Learn Trading the Right Way</h1>
+            <p>Honest, practical education for Indian beginners. No get-rich-quick promises, just real knowledge.</p>
+            <a href="#questions" class="cta-button">Start Learning</a>
+        </div>
+    </section>
+
+    <section id="questions" class="section">
+        <div class="container">
+            <h2 class="section-title">Most Asked Questions by Beginners</h2>
+            
+            <div class="questions-grid">
+                <div class="question-card">
+                    <h3>Is trading really profitable?</h3>
+                    <p>The honest truth: 80-90% of traders lose money. But the 10-20% who succeed follow specific principles.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('profitability')">Read the full analysis →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>Why do 90% of traders lose money?</h3>
+                    <p>Lack of risk management, emotional trading, and unrealistic expectations are the main culprits.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('why-lose')">Learn the reasons →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>What is F&O trading?</h3>
+                    <p>Futures & Options - powerful but risky instruments that can amplify both gains and losses.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('fno-basics')">Understand F&O →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>Is day trading gambling?</h3>
+                    <p>Without proper strategy and risk management, yes. With discipline and knowledge, it's speculation.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('gambling')">Learn the difference →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>Can I learn trading without money?</h3>
+                    <p>Yes! Paper trading, simulators, and educational resources can teach you before risking real money.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('learn-free')">Start free learning →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>Which broker is best for beginners?</h3>
+                    <p>Low brokerage, good educational resources, and reliable platform are key factors.</p>
+                    <a href="#brokers">Compare brokers →</a>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h4>⚠️ Reality Check</h4>
+                <p>Trading is not a guaranteed way to make money. Most beginners lose because they treat it like gambling instead of treating it like a business that requires knowledge, discipline, and proper risk management.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="brokers" class="section brokers-section">
+        <div class="container">
+            <h2 class="section-title">Recommended Brokers for Beginners</h2>
+            
+            <div class="broker-card">
+                <div class="broker-info">
+                    <h4>Zerodha</h4>
+                    <div class="broker-features">
+                        <span>₹0 delivery</span>
+                        <span>₹20 intraday</span>
+                        <span>Great education</span>
+                        <span>Reliable platform</span>
+                    </div>
+                </div>
+                <a href="https://zerodha.com/open-account?utm_source=tradingeducationindia&utm_campaign=beginners" class="referral-btn" target="_blank">Open Account</a>
+            </div>
+            
+            <div class="broker-card">
+                <div class="broker-info">
+                    <h4>Upstox</h4>
+                    <div class="broker-features">
+                        <span>₹0 delivery</span>
+                        <span>₹20 intraday</span>
+                        <span>Mobile-first</span>
+                        <span>Quick KYC</span>
+                    </div>
+                </div>
+                <a href="https://upstox.com/open-demat-account?utm_source=tradingeducationindia&utm_campaign=beginners" class="referral-btn" target="_blank">Open Account</a>
+            </div>
+            
+            <div class="broker-card">
+                <div class="broker-info">
+                    <h4>Angel One</h4>
+                    <div class="broker-features">
+                        <span>₹0 delivery</span>
+                        <span>₹20 intraday</span>
+                        <span>Research reports</span>
+                        <span>Good support</span>
+                    </div>
+                </div>
+                <a href="https://angelone.in/open-demat-account?utm_source=tradingeducationindia&utm_campaign=beginners" class="referral-btn" target="_blank">Open Account</a>
+            </div>
+            
+            <div class="broker-card">
+                <div class="broker-info">
+                    <h4>Groww</h4>
+                    <div class="broker-features">
+                        <span>₹0 delivery</span>
+                        <span>₹20 intraday</span>
+                        <span>Beginner-friendly</span>
+                        <span>Simple interface</span>
+                    </div>
+                </div>
+                <a href="https://groww.in/open-demat-account?utm_source=tradingeducationindia&utm_campaign=beginners" class="referral-btn" target="_blank">Open Account</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="guides" class="section">
+        <div class="container">
+            <h2 class="section-title">Step-by-Step Learning Path</h2>
+            
+            <div class="questions-grid">
+                <div class="question-card">
+                    <h3>📚 Step 1: Learn the Basics</h3>
+                    <p>Understand what trading is, different types of trades, and basic terminology.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('basics')">Start here →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>⚖️ Step 2: Risk Management</h3>
+                    <p>Learn position sizing, stop losses, and how to protect your capital.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('risk-management')">Master risk →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>🧠 Step 3: Trading Psychology</h3>
+                    <p>Control emotions, develop discipline, and avoid common psychological traps.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('psychology')">Train your mind →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>📊 Step 4: Technical Analysis</h3>
+                    <p>Learn to read charts, understand patterns, and use indicators effectively.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('technical-analysis')">Analyze charts →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>💼 Step 5: Choose Your Strategy</h3>
+                    <p>Find a trading style that matches your personality, time, and risk tolerance.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('strategies')">Pick your style →</a>
+                </div>
+                
+                <div class="question-card">
+                    <h3>📝 Step 6: Practice & Track</h3>
+                    <p>Start with paper trading, then small real positions. Keep a trading journal.</p>
+                    <a href="javascript:void(0)" onclick="showArticle('practice')">Start practicing →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Trading Education India. Educational content only. Trading involves risk.</p>
+            <p>This site contains affiliate links. We may earn a commission if you open an account through our links.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple article display system
+        const articles = {
+            'profitability': {
+                title: 'Is Trading Really Profitable?',
+                content: `
+                    <h3>The Hard Truth About Trading Profitability</h3>
+                    <p>Studies consistently show that 80-90% of day traders lose money. Here's why:</p>
+                    <ul>
+                        <li><strong>Overconfidence:</strong> Beginners often mistake luck for skill</li>
+                        <li><strong>Poor Risk Management:</strong> Not using stop losses or proper position sizing</li>
+                        <li><strong>Emotional Trading:</strong> Fear and greed drive decisions</li>
+                        <li><strong>Lack of Strategy:</strong> Trading without a systematic approach</li>
+                    </ul>
+                    <h4>The 10-20% Who Succeed Do This:</h4>
+                    <ul>
+                        <li>Treat trading like a business, not gambling</li>
+                        <li>Risk only 1-2% of capital per trade</li>
+                        <li>Have a proven strategy with edge</li>
+                        <li>Keep detailed records and learn from mistakes</li>
+                        <li>Focus on preservation of capital first</li>
+                    </ul>
+                    <p><strong>Bottom line:</strong> Trading can be profitable, but it requires knowledge, discipline, and realistic expectations. Most people would be better off with long-term investing.</p>
+                `
+            },
+            'why-lose': {
+                title: 'Why 90% of Traders Lose Money',
+                content: `
+                    <h3>The Main Reasons Traders Fail</h3>
+                    <h4>1. No Risk Management</h4>
+                    <p>Most beginners risk too much per trade. One bad trade can wipe out weeks of gains.</p>
+                    <h4>2. Emotional Decision Making</h4>
+                    <p>Fear of missing out (FOMO) and revenge trading after losses lead to poor decisions.</p>
+                    <h4>3. Unrealistic Expectations</h4>
+                    <p>Expecting to double money quickly leads to taking excessive risks.</p>
+                    <h4>4. Lack of Education</h4>
+                    <p>Jumping into complex instruments like F&O without understanding the risks.</p>
+                    <h4>5. No Trading Plan</h4>
+                    <p>Trading randomly without entry/exit rules or strategy.</p>
+                    <p><strong>The solution:</strong> Start with education, practice with small amounts, and focus on protecting your capital rather than making quick profits.</p>
+                `
+            },
+            'fno-basics': {
+                title: 'F&O Trading Explained Simply',
+                content: `
+                    <h3>What is Futures & Options Trading?</h3>
+                    <h4>Futures:</h4>
+                    <p>A contract to buy/sell a stock at a specific price on a future date. You can profit from both rising and falling prices.</p>
+                    <h4>Options:</h4>
+                    <p>The right (not obligation) to buy/sell a stock at a specific price. You pay a premium for this right.</p>
+                    <h4>Why F&O is Risky for Beginners:</h4>
+                    <ul>
+                        <li><strong>Leverage:</strong> You can control large positions with small money, amplifying losses</li>
+                        <li><strong>Time Decay:</strong> Options lose value as expiry approaches</li>
+                        <li><strong>Complexity:</strong> Multiple factors affect pricing</li>
+                        <li><strong>Margin Calls:</strong> You may need to add more money if trades go against you</li>
+                    </ul>
+                    <p><strong>Recommendation:</strong> Master cash trading first. Learn with small amounts. Understand risk management before touching F&O.</p>
+                `
+            }
+        };
+
+        function showArticle(articleId) {
+            const article = articles[articleId];
+            if (article) {
+                // Create modal overlay
+                const modal = document.createElement('div');
+                modal.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0,0,0,0.8);
+                    z-index: 1000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                `;
+                
+                const content = document.createElement('div');
+                content.style.cssText = `
+                    background: white;
+                    padding: 2rem;
+                    border-radius: 8px;
+                    max-width: 800px;
+                    max-height: 80vh;
+                    overflow-y: auto;
+                    position: relative;
+                `;
+                
+                content.innerHTML = `
+                    <button onclick="this.parentElement.parentElement.remove()" 
+                            style="position: absolute; top: 10px; right: 15px; background: none; border: none; font-size: 24px; cursor: pointer;">&times;</button>
+                    <h2>${article.title}</h2>
+                    ${article.content}
+                `;
+                
+                modal.appendChild(content);
+                document.body.appendChild(modal);
+                
+                // Close on overlay click
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        modal.remove();
+                    }
+                });
+            }
+        }
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add some analytics tracking (you can replace with your preferred analytics)
+        function trackClick(element, action) {
+            // Replace with your analytics code
+            console.log('Tracked:', action, element);
+        }
+
+        // Track referral clicks
+        document.querySelectorAll('.referral-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                trackClick(this, 'referral_click');
+            });
+        });
+    </script>
+</body>
+</html>
