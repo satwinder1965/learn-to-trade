@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Does Zerodha Provide Algo Trading? Streak vs Kite Connect Guide 2025 | Learn2Trade</title>
+    <meta name="description" content="Yes, Zerodha offers algo trading through Streak (free) and Kite Connect API (₹500/month). Learn costs, features, limitations, and how to start algorithmic trading with Zerodha.">
+    <meta name="keywords" content="zerodha algo trading, zerodha streak free, kite connect api cost, zerodha algorithmic trading, streak algo trading, zerodha api pricing 2025">
+    <link rel="canonical" href="https://learn2trade.in/zerodha-algo-trading-guide/">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+        .header { background: #ff6d00; color: white; padding: 1rem 0; }
+        .logo { font-size: 1.5rem; font-weight: bold; }
+        .breadcrumb { background: #f8f9fa; padding: 0.5rem 0; font-size: 0.9rem; }
+        .breadcrumb a { color: #ff6d00; text-decoration: none; }
+        .content { padding: 2rem 0; }
+        .quick-answer { background: #fff3e0; border-left: 4px solid #ff6d00; padding: 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+        .comparison-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+        .comparison-table th, .comparison-table td { border: 1px solid #e5e7eb; padding: 0.75rem; text-align: left; }
+        .comparison-table th { background: #f8f9fa; font-weight: bold; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1rem 0; }
+        .feature-card { background: white; border: 1px solid #e5e7eb; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 1rem 0; }
+        .pros, .cons { padding: 1rem; border-radius: 8px; }
+        .pros { background: #f0fdf4; border-left: 4px solid #16a34a; }
+        .cons { background: #fef2f2; border-left: 4px solid #dc2626; }
+        .cta-box { background: linear-gradient(135deg, #ff6d00 0%, #ff8f00 100%); color: white; padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center; }
+        .cta-button { background: white; color: #ff6d00; padding: 12px 30px; border-radius: 6px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 1rem; }
+        .warning { background: #fef3c7; border: 1px solid #f59e0b; padding: 1rem; border-radius: 8px; margin: 1rem 0; }
+        .footer { background: #1f2937; color: white; text-align: center; padding: 2rem 0; margin-top: 3rem; }
+        h1 { font-size: 2.5rem; margin-bottom: 1rem; color: #1f2937; }
+        h2 { color: #ff6d00; margin: 2rem 0 1rem 0; font-size: 1.8rem; }
+        h3 { color: #374151; margin: 1.5rem 0 0.5rem 0; }
+        ul, ol { margin-left: 2rem; margin-bottom: 1rem; }
+        .highlight { background: #fff3e0; padding: 2px 6px; border-radius: 4px; }
+        .step-number { background: #ff6d00; color: white; width: 30px; height: 30px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 0.5rem; font-weight: bold; }
+        @media (max-width: 768px) { .pros-cons { grid-template-columns: 1fr; } }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Does Zerodha provide algo trading?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Zerodha provides algorithmic trading through two platforms: Streak (free for Zerodha users with 5 live strategy limit) and Kite Connect API (₹500/month for historical data access). Both comply with SEBI's 2025 regulations and require manual order confirmation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Zerodha Streak free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Zerodha Streak is completely free for all Zerodha users. You can create algorithms without coding, backtest strategies, and deploy up to 5 live strategies simultaneously. There are no monthly charges for the basic Streak platform."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of Zerodha Kite Connect API?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zerodha Kite Connect API is free for basic trading functions. However, historical data access costs ₹500 per month. The API allows developers to build custom trading applications and integrate with Zerodha's trading system."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">Learn2Trade</div>
+        </div>
+    </header>
+    
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="https://learn2trade.in/">Home</a> > <a href="https://learn2trade.in/#brokers">Brokers</a> > Zerodha Algo Trading
+        </div>
+    </nav>
+    
+    <main class="container content">
+        <article>
+            <h1>Does Zerodha Provide Algo Trading? Complete Guide 2025</h1>
+            
+            <div class="quick-answer">
+                <h2 style="margin-top: 0; color: #ff6d00;">Quick Answer</h2>
+                <p><strong>Yes, Zerodha offers algorithmic trading through two platforms:</strong></p>
+                <ul style="margin-left: 1rem;">
+                    <li>🆓 <strong>Streak:</strong> Free visual algo platform (5 live strategies)</li>
+                    <li>🔧 <strong>Kite Connect API:</strong> ₹500/month for historical data access</li>
+                    <li>⚠️ <strong>2025 Update:</strong> Manual order confirmation required (no full automation)</li>
+                    <li>✅ <strong>SEBI Compliant:</strong> Follows all regulatory requirements</li>
+                </ul>
+            </div>
+            
+            <section>
+                <h2>Zerodha's Algo Trading Platforms Comparison</h2>
+                
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Streak (Free)</th>
+                            <th>Kite Connect API</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Cost</strong></td>
+                            <td>✅ Free for Zerodha users</td>
+                            <td>₹500/month (historical data)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Coding Required</strong></td>
+                            <td>❌ No coding needed</td>
+                            <td>✅ Programming knowledge required</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Live Strategies</strong></td>
+                            <td>5 concurrent strategies</td>
+                            <td>Unlimited (subject to limits)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Backtesting</strong></td>
+                            <td>✅ Built-in backtesting</td>
+                            <td>✅ Custom backtesting possible</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Order Types</strong></td>
+                            <td>Market, Limit orders</td>
