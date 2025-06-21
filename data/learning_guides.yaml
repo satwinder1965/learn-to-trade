@@ -1,0 +1,28 @@
+learning_path:
+  title: "Your 6-Month Trading Mastery Journey"
+  subtitle: "Follow this proven step-by-step path used by successful traders. Each phase builds on the previous one."
+
+modules:
+  - id: "basics"
+    title: "📚 Phase 1: Trading Fundamentals"
+    color: "#2563eb"
+    duration: "4 weeks"
+    time_per_day: "1 hour/day"
+    description: "Learn stock market basics, trading types, and essential terminology for Indian markets."
+    guide_url: "/trading-fundamentals-guide-india/"
+      
+  - id: "risk-management"
+    title: "⚖️ Phase 2: Risk Management Mastery"  
+    color: "#16a34a"
+    duration: "4 weeks"
+    time_per_day: "1.5 hours/day"
+    description: "Master position sizing, stop losses, and risk-reward ratios - the foundation of trading success."
+    guide_url: "/risk-management-trading-guide/"
+      
+  - id: "psychology"
+    title: "🧠 Phase 3: Trading Psychology"
+    color: "#ea580c"
+    duration: "4 weeks"
+    time_per_day: "1 hour/day"
+    description: "Control emotions, overcome FOMO, and develop the winning trader mindset."
+    guide_url: "/trading-psychology-guide/"
