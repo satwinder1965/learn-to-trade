@@ -1,0 +1,84 @@
+{{ define "main" }}
+<section class="hero">
+    <div class="container">
+        <h1>Learn Trading in India with Learn2Trade - Evidence-Based Education</h1>
+        <p>Discover why 70% of intraday traders lose money and how to trade successfully. Complete guide to trading in India with best broker recommendations.</p>
+        <a href="#questions" class="cta-button">Start Learning Free</a>
+    </div>
+</section>
+
+<section id="questions" class="section">
+    <div class="container">
+        <h2 class="section-title">Most Asked Trading Questions in India - Honest Answers</h2>
+        
+        <div class="questions-grid">
+            {{ range .Site.Data.paa_questions.general }}
+            <div class="question-card">
+                <h3>{{ .question }}</h3>
+                <p>{{ .short_answer }}</p>
+                <div style="margin-top: 1rem;">
+                    <a href="{{ .guide_url }}" style="background: {{ .cta_color }}; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 0.9rem;">{{ .cta_icon }} {{ .cta_text }}</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
+        <div class="warning-box">
+            <h4>⚠️ Reality Check - Official SEBI Data</h4>
+            <p>SEBI studies reveal: 70% of intraday traders and 93% of F&O traders lose money. The average loss for F&O traders was ₹2 lakh over 3 years (FY22-24). Trading is not a guaranteed way to make money - treat it like a business requiring knowledge, discipline, and proper risk management.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+    <div class="container">
+        <h2 class="section-title" style="color: white; text-align: center; margin-bottom: 3rem;">🤖 Algo Trading Questions in India - Complete Guide 2025</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+            {{ range .Site.Data.paa_questions.algo }}
+            <div style="background: white; color: #333; padding: 2rem; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);">
+                <h3 style="color: {{ .color }}; margin-bottom: 1rem; font-size: 1.2rem;">{{ .question }}</h3>
+                <p style="margin-bottom: 1rem;">{{ .answer }}</p>
+                {{ if .features }}
+                <ul style="margin-left: 1rem; margin-bottom: 1rem;">
+                    {{ range .features }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+                <p><strong>{{ .conclusion_label }}:</strong> {{ .conclusion }}</p>
+            </div>
+            {{ end }}
+        </div>
+        
+        <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 12px;">
+            <h3 style="color: white; margin-bottom: 1rem;">⚠️ Algo Trading Reality Check</h3>
+            <p style="font-size: 1.1rem; margin-bottom: 1rem;">Even with algorithms, most retail traders lose money. SEBI data shows institutions dominate algo profits through sophisticated systems and massive capital.</p>
+            <p style="font-size: 1rem;"><strong>Our Recommendation:</strong> Master manual trading first, then consider simple algorithmic enhancements. Avoid complex AI/ML strategies until you're consistently profitable manually.</p>
+        </div>
+    </div>
+</section>
+
+<section id="brokers" class="section brokers-section">
+    <div class="container">
+        <h2 class="section-title">Best Trading Brokers in India 2025 - Honest Comparison</h2>
+        
+        {{ range .Site.Data.brokers.brokers }}
+        <div class="broker-card">
+            <div class="broker-info">
+                <h4>{{ .name }}</h4>
+                <div class="broker-features">
+                    <span>{{ .delivery_fee }} delivery</span>
+                    <span>{{ .intraday_fee }} intraday/F&O</span>
+                    <span>{{ .amc }} AMC</span>
+                    {{ range .highlights }}
+                    <span>{{ . }}</span>
+                    {{ end }}
+                </div>
+            </div>
+            <a href="{{ .referral_url }}" class="referral-btn" target="_blank">Open Account</a>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

@@ -1,0 +1,38 @@
+baseURL: 'https://learn2trade.in'
+languageCode: 'en-us'
+title: 'Learn2Trade - Learn Trading in India'
+theme: 'learn2trade-theme'
+
+params:
+  description: "Learn trading in India with Learn2Trade - honest education 
+backed by official SEBI data. 70% of intraday traders lose money - 
+discover why and how to trade successfully."
+  author: "Learn2Trade"
+  og_image: "/images/learn2trade-og.jpg"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Popular Questions"
+      url: "/#questions"
+      weight: 2
+    - name: "Best Brokers"
+      url: "/#brokers"
+      weight: 3
+    - name: "Learning Guides"
+      url: "/#guides"
+      weight: 4
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  page: ["HTML"]
+
+permalinks:
+  guides: "/:slug/"

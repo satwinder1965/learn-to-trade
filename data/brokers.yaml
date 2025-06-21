@@ -1,0 +1,27 @@
+brokers:
+  - name: "Zerodha"
+    delivery_fee: "₹0"
+    intraday_fee: "₹20"
+    amc: "₹300"
+    highlights:
+      - "Best education"
+      - "Varsity learning"
+    referral_url: "https://zerodha.com/open-account?utm_source=learn2trade"
+    
+  - name: "Upstox"
+    delivery_fee: "₹0"
+    intraday_fee: "₹20"
+    amc: "₹300 (Free 1st year)"
+    highlights:
+      - "Quick KYC"
+      - "Good mobile app"
+    referral_url: "https://upstox.com/open-demat-account?utm_source=learn2trade"
+    
+  - name: "Groww"
+    delivery_fee: "₹0"
+    intraday_fee: "₹20"
+    amc: "₹0"
+    highlights:
+      - "Beginner-friendly"
+      - "Clean interface"
+    referral_url: "https://groww.in/open-demat-account?utm_source=learn2trade"
