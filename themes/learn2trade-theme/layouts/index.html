@@ -81,4 +81,35 @@
         {{ end }}
     </div>
 </section>
+
+{{/* 
+LEARNING GUIDES SECTION - COMMENTED OUT UNTIL TRAINING STRATEGY IS FINALIZED
+
+<section id="guides" class="section">
+    <div class="container">
+        <h2 class="section-title">Complete Trading Education Path for Indian Beginners</h2>
+        
+        <div style="background: white; padding: 2rem; border-radius: 12px; margin-bottom: 3rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            <h3 style="color: #2563eb; margin-bottom: 1.5rem; text-align: center;">📚 {{ .Site.Data.learning_guides.learning_path.title }}</h3>
+            <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">{{ .Site.Data.learning_guides.learning_path.subtitle }}</p>
+        </div>
+        
+        <div class="questions-grid">
+            {{ range .Site.Data.learning_guides.modules }}
+            <div class="question-card" style="border-left: 4px solid {{ .color }};">
+                <h3 style="color: {{ .color }};">{{ .title }}</h3>
+                <div style="margin-bottom: 1rem;">
+                    <strong>Duration:</strong> {{ .duration }} | <strong>Time:</strong> {{ .time_per_day }}
+                </div>
+                <p style="margin-bottom: 1rem;">{{ .description }}</p>
+                <a href="{{ .guide_url }}" style="color: {{ .color }}; text-decoration: none; font-weight: 500;">📖 Read Complete Guide →</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+END LEARNING GUIDES SECTION 
+*/}}
+
 {{ end }}
