@@ -1,0 +1,39 @@
+trading_rules:
+  title: "Essential Trading Rules Every Indian Trader Must Know"
+  subtitle: "Master the proven rules that separate winning traders from the 70% who lose money"
+  
+  rules:
+    - id: "90-percent-rule"
+      question: "What is the 90% rule in trading?"
+      short_answer: "The 90% rule states that 90% of traders lose money, 9% break even, and only 1% consistently profit. This highlights the importance of proper education and risk management."
+      color: "#dc2626"
+      icon: "⚠️"
+      guide_url: "/90-percent-rule-trading/"
+      
+    - id: "3-5-7-rule"
+      question: "What is the 3-5-7 rule in trading?"
+      short_answer: "The 3-5-7 rule: Risk 3% of capital per trade, target 5% profit, and use 7-day moving average for trend confirmation. A simple risk management framework."
+      color: "#2563eb"
+      icon: "📊"
+      guide_url: "/3-5-7-rule-trading/"
+      
+    - id: "50-percent-rule"
+      question: "What is the 50% rule in trading?"
+      short_answer: "The 50% rule suggests that after a significant price move, stocks often retrace 50% before continuing the original trend. Used for entry timing."
+      color: "#16a34a"
+      icon: "📈"
+      guide_url: "/50-percent-rule-trading/"
+      
+    - id: "golden-rule"
+      question: "What is the golden rule of trading?"
+      short_answer: "Never risk more than you can afford to lose. The golden rule emphasizes capital preservation above all else - you can't trade if you have no money left."
+      color: "#f59e0b"
+      icon: "🏆"
+      guide_url: "/golden-rule-trading/"
+      
+    - id: "80-20-rule"
+      question: "What is the 80-20 rule in trading?"
+      short_answer: "80% of trading profits come from 20% of trades. Focus on quality setups rather than quantity. Also: 80% psychology, 20% strategy."
+      color: "#7c3aed"
+      icon: "🎯"
+      guide_url: "/80-20-rule-trading/"

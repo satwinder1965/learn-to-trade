@@ -81,4 +81,21 @@
         {{ end }}
     </div>
 </section>
+
+<section id="trading-rules" class="section">
+    <div class="container">
+        <h2 class="section-title">{{ .Site.Data.trading_rules.trading_rules.title }}</h2>
+        <p style="text-align: center; font-size: 1.1rem; margin-bottom: 3rem; color: #666;">{{ .Site.Data.trading_rules.trading_rules.subtitle }}</p>
+        
+        <div class="questions-grid">
+            {{ range .Site.Data.trading_rules.trading_rules.rules }}
+            <div class="question-card" style="border-left: 4px solid {{ .color }};">
+                <h3 style="color: {{ .color }};">{{ .icon }} {{ .question }}</h3>
+                <p style="margin-bottom: 1rem;">{{ .short_answer }}</p>
+                <a href="{{ .guide_url }}" style="background: {{ .color }}; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 0.9rem;">📖 Complete Guide</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
 {{ end }}
